@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22A7623E-8927-4112-A5F0-3F0B33BCEF5D}</ProjectGuid>
+    <ProjectGuid>{238B178C-B00D-485C-AF56-C071035E8784}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Nedarvning</RootNamespace>
-    <AssemblyName>Nedarvning</AssemblyName>
+    <RootNamespace>ArvTerning</RootNamespace>
+    <AssemblyName>ArvTerning</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,7 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
